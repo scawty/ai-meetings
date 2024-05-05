@@ -27,6 +27,10 @@ The script does the following:
 5. Makes a call to GPT-4-turbo using [Function Calling](https://platform.openai.com/docs/guides/function-calling) to extract references
 6. Prints JSON containing the extracted references
 
+### examples
+
+Two example audios/transcripts are provided. Enter them with "https://www.youtube.com/watch?v=" preceeding the video id (file name)
+
 ### limitations
 
 The transcript is used in context, meaning very large transcripts may be outside the given context window.
