@@ -67,7 +67,7 @@ def extract_references(transcription):
         messages=[
             {
                 "role": "system",
-                "content": "You are an AI expert in analyzing conversation transcripts and extracting references. Please review the text and identify any software, people, books, or other reference material referenced.",
+                "content": "You are an AI expert in analyzing conversation transcripts and extracting references. Please review the text and identify any software, movies, books, or other reference material referenced.",
             },
             {"role": "user", "content": transcription},
         ],
