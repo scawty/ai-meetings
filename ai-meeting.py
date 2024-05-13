@@ -62,7 +62,7 @@ def get_transcript(
 def extract_references(transcription):
     print("Extracting references...")
     response = client.chat.completions.create(
-        model="gpt-4-turbo",
+        model="gpt-4o",
         temperature=0,
         messages=[
             {
